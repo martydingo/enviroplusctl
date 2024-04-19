@@ -6,11 +6,11 @@ import pms5003
 import vcgencmd
 
 
-class Enviroplus:
+class EnvPlus:
     useParticulateMatterSensor = True
 
     def __init__(self) -> None:
-        pass
+        self.__initialize_sensors__()
 
     def __initialize_sensors__(self):
         # BME280 climate sensor
