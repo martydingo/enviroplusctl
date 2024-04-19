@@ -8,6 +8,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+bme280 = "^0.7"
+ltr559 = "^1.0.0"
+vcgencmd = "^0.1.1"
 
 
 [build-system]
